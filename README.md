@@ -1,14 +1,22 @@
 # Adidas-sales-report-analysis
-The Adidas dataset is designed to provide detailed insight into the company’s sales performance, product demand, and customer buying patterns across different regions, products, and time periods.
+Adidas is a globally recognized sportswear company founded in 1949 in Germany by Adolf Dassler. The brand specializes in athletic footwear, apparel and accessories and is known for its iconic three stripes design.
+ In this analysis, we worked with Adidas sales dataset to understand how the brand is performing across different regions, retailers, products and time periods. The goal was to go beyond just number and uncover the meaningful patterns in customer buying behavior, product demand and overall sales performance.
+
+ # Problem Statement
+ Adidas operates in a highly competitive and dynamic market. Fluctuations in sales performance, regional demand differences, product category and consumer preferences can significantly impact overall profitability and growth. The challenge is to analyze Adidas sales and performance data to identify key trends, revenue drivers and growth opportunities.
+
+
+
+
 
 # Dataset used
 <a href="https://github.com/Imayorrr/Adidas-sales-report-analysis/blob/main/Copy%20of%20Adidas_US_Sales_Datasets11(2)%20waa.xlsx">Dataset used</a>
 
 ## Objectives
-1.	To identify the regions that generate the highest revenue and profits.
-2.	To analyze how different sales method impact overall sales performance.
-3.	To examine the sales trend quarterly over time to understand the growth patterns and seasonal variations.
-4.	To identify the top states with the highest revenue
+1.	To analyze how different sales method impact overall sales performance. 
+2.	To identify the regions that generate the highest profits.
+3.	To examine the  quarterly sales trend  
+4.	To identify the retailers with the highest profit.
 5.	To identify the products the consumers prefer the most.
 
 <img width="1184" height="502" alt="image" src="https://github.com/user-attachments/assets/f0affe03-18e3-4e9d-966c-ce86ff2c08aa" />
@@ -23,19 +31,23 @@ The Adidas dataset is designed to provide detailed insight into the company’s 
 6. I created another column named “profit ” by subtracting the total revenue column and the total cost column
 7. After I was done with cleaning and adding columns, I had 9648 rows and 13 columns
 
-# Analysis insights and recommendation
+# Analytical Questions
+* How do sales methods (Online, Outlet and In-Store) influence the profit?
 
-# 1. Total revenue by top 5 states
-* New York and California Lead in Revenue, Both states generate the highest revenue, close to $9M, this suggests strong market demand, higher customer base, or better retailer performance in these regions.
-*  Florida and Texas follows closely with both making $7.8M and $6.6M in revenue respectively.
-* South Carolina ranks lowest among the top five making $3.5M in total revenue.
-## Recommendation
-* Adidas should maintain strong supply and marketing efforts in New York and California, as they lead in revenue.
-* For Florida and Texas, increasing targeted promotions and improving retailer support can help boost their performance.
-* South Carolina, although in the top five, shows the lowest revenue and needs improved market penetration, better distribution to increase sales.
+* Which product category contributed most to Adidas’ profit?
+  
+* Which region generated the highest profit for Adidas?
+  
+* Which retailer contributed the most to the overall profit?
+  
+* What was the quarterly sales trend?
 
-# 2. 	Total Revenue By Sales Method
-* The Online sales generate the highest revenue ($44.97M) followed by Outlet sales ($39.54M), and In-store sales ($35.66M).
+
+
+# Analysis and insights 
+
+# 1. 	Total Profit By Sales Method
+* The Total Profit by Sales Method chart reveals that the Online sales generated the highest profit ($19.55M) followed by Outlet sales ($14.91M), and In-store sales ($12.76M).
 * This indicates that Adidas performs strongly across all channels, but online is clearly the leading sales method.
 ## Insights
 * Online sales being the top contributor suggests:
@@ -46,7 +58,7 @@ The Adidas dataset is designed to provide detailed insight into the company’s 
 *	Outlet performance is strong and should be maintained.
 *	To boost in-store sales, Adidas can introduce targeted promotions, in-store experiences, and product exclusives to attract more physical shoppers.
 
-# 3.	Total revenue by product.
+# 2.	Total profit by product.
 * The chart shows that Men’s Street Footwear generates the highest revenue among all products, followed closely by Women’s Apparel and Men’s Athletic Footwear.
 * On the lower end, Women’s Athletic Footwear and Men’s Apparel generate the least revenue in comparison to the top products.
 ## Insights
@@ -58,24 +70,23 @@ The Adidas dataset is designed to provide detailed insight into the company’s 
 * For weaker categories like Women’s Athletic Footwear, Adidas should evaluate product range, marketing strategy, and inventory levels to identify improvement opportunities.
 * Increasing targeted campaigns for underperforming women’s categories may help balance revenue across product lines.
 
-# 4. Total revenue and profit by region
-* The chart compares Total Revenue and Profit across five regions.
-* West generates the highest revenue by a wide margin, as well as the highest profit.
-* Northeast, Southeast, and South show moderate revenue levels with profits that follow a similar pattern steady but significantly lower than revenue.
-* Midwest shows the lowest revenue and profit.
-## Insights
-* West Region is the strongest performer, it produces the most revenue and profit, suggesting strong market demand.
-* Although the southeast region made more revenue than the south region, the south region made more profits than the southeast region
-## Recommendation
- * Focus on what works in the West by examining pricing, product mix, and operational strategies that are driving its strong performance, and replicate these across other regions.
-* Investigate Midwest performance ; Conduct a market review to identify whether the issue is low demand, poor distribution, or competitive pressure, and design targeted interventions.
+# 3. Total profit by region
+* West Region is the strongest performer, it produces the most profit, suggesting strong market demand.
+* Northeast, Southeast, and South shows moderate profit levels with profits that follow a similar pattern. 
+* Midwest shows the lowest profit.
 
-# 5.	Total Revenue By Quarter
-* The chart shows revenue performance across the four quarters:
-* Revenue starts at around $25M in Q1.
-* It increases steadily through Q2 with $30M in revenue.
-* It peaks in Q3 at approximately $35M, the highest point in the year.
-* Revenue then declines in Q4 to  $28M.
+## Recommendation
+* Focus on what works in the West by examining pricing, product mix, and operational strategies that are driving its strong performance, and replicate these across other regions.
+* Investigate Midwest performance ; Conduct  a market review to identify whether the issue is low demand, poor distribution, or competitive pressure, and design targeted interventions.
+
+# 4.	Total Revenue By Quarter
+* The Quarterly chart shows profit performance across the four quarters:
+* profit starts at around $9.7M in Q1.
+* It increases steadily through Q2 with $11.9M in profit.
+* It peaks in Q3 at approximately $14.1M, the highest point in the year.
+* profit then declines in Q4 to  $11.5M.
+
+
 ## Insights
 * Strong growth occurs from Q1 to Q3, indicating favorable business conditions, successful campaigns, or high customer demand.
 * Q3 is the peak revenue quarter, suggesting seasonality or concentrated sales activity.
@@ -85,8 +96,22 @@ The Adidas dataset is designed to provide detailed insight into the company’s 
 * Leverage Q3 success: identify the strategies that drove the Q3 peak (promotions, product launches, seasonal demand) and consider extending or replicating them in Q4.
 * Strengthen Q1 performance by launching early-year promotions or pipeline-building strategies to avoid a slow start.
 
+  # 5.Total Profit by Retailer
+  The Total Profit by Retailer Chart reveals that;
+* West Gear is the top-performing retailer that generated the highest profit by a clear margin.
+* Foot Locker and Sports Direct follow closely forming a strong top-three profit group.
+* There is a sharp drop in profit after Sports Direct.
+* Kohl’s, Amazon and Walmart contribute significantly less profit with Walmart being the lowest among the group.
+  ## Recommendation
+ *  Invest more in  top retailers (west gear, foot locker, sports direct)
+*  Improve visibility and promotions on underperforming platforms
+
+
+
+ 
+
 # CONCLUSION 
-* The sales analysis shows that Adidas’ strongest performance comes from a few key areas. New York and California lead as the top revenue-generating states, while Florida, Texas, and South Carolina follow as part of the top five. Sales channels also show a strong shift toward digital, with online sales contributing the highest revenue, followed by outlet and in-store sales.
+* The sales analysis shows that Adidas’ strongest performance comes from a few key areas. Sales channels show a strong shift toward digital, with online sales contributing the highest revenue, followed by outlet and in-store sales.
 * In terms of products, Men’s Street Footwear stands out as the best-performing category, with men’s athletic footwear and women’s apparel also driving significant revenue. Meanwhile, women’s athletic footwear and some apparel lines generate comparatively lower revenue.
 * The West region performs the strongest in both revenue and profit, while the Midwest lags behind. Revenue increases steadily from Q1 and peaks in Q3 before dropping in Q4. Overall, performance shows strong mid-year momentum but weak end-year results, suggesting seasonal patterns and opportunities to improve consistency across regions and quarters.
 
