@@ -11,7 +11,8 @@ The Adidas dataset is designed to provide detailed insight into the company’s 
 4.	To identify the top states with the highest revenue
 5.	To identify the products the consumers prefer the most.
 
-<img width="589" height="334" alt="adidas SS" src="https://github.com/user-attachments/assets/58e0d5e3-2765-40b4-9e9f-420ae36feebb" />
+<img width="1184" height="502" alt="image" src="https://github.com/user-attachments/assets/f0affe03-18e3-4e9d-966c-ce86ff2c08aa" />
+
 
 ## Data cleaning process
 1. The dataset contains 9648 rows and 11 columns
